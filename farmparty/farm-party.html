@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Farm Party</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Erica+One' rel='stylesheet' type='text/css'>
+        <style>
+        body{
+          margin:0;
+          background-color: #AAE2FF;
+          background-image:url('img/cloudrepeat.jpg');
+        }
+
+        #grass {
+          position:absolute;
+          bottom:0;
+          width:100%;
+          height:40%;
+          background-color:green;
+
+        }
+
+        .hdr-text{
+          font-family: 'Erica One', cursive;
+          color:red;
+          font-size:4em;
+          text-align:center;
+          -webkit-text-stroke: 1px black;
+          text-shadow:
+          3px 3px 0 #000,
+          -1px -1px 0 #000,  
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+          1px 1px 0 #000;
+          padding-top:10%;
+          z-index:100;
+        }
+
+        .sun{
+          position:absolute;
+          left:60%;
+          top:2%;
+          height:160px;
+          width:160px;
+          z-index:-100;
+        }
+
+          .tree{
+          position:absolute;
+          left:50%;
+          bottom:38%;
+          z-index:100;
+        }
+
+            .cow{
+          position:absolute;
+          bottom:38%;
+          left:20%;
+          z-index:100;
+        }
+
+                .sheep{
+          position:absolute;
+          bottom:18%;
+          left:30%;
+          height:160px;
+          width:200px;
+          z-index:100;
+        }
+
+                   .dude{
+          position:absolute;
+          bottom:18%;
+          left:60%;
+          z-index:100;
+        }
+        </style>
+  </head>
+  <body>
+  <div class="hdr-text">
+  FARM PARTY!
+  </div>
+  <img class="sun" src="img/sun.png">
+  <img class="tree" src="img/tree.png">
+  <img class="cow" src="img/cow.png">
+  <img class="sheep" src="img/sheep.png">
+  <img class="dude" src="img/dude.gif">
+ <div id="grass">
+ </div>
+  </body>
+</html>
